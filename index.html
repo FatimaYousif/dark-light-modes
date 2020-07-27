@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODES</title>
+    <script src="https://kit.fontawesome.com/69bf9797cc.js" crossorigin="anonymous"></script>
+
+    <style>
+        .container
+        {
+            /* border: 1px solid black; */
+            border-radius: 1em;
+            width: 500px;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5% 0;
+            font-size: 1.5em;
+        }
+        .row
+        {
+            margin-bottom: 2%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+        }
+        .blue,.blue1, .blue2, .blue3
+        {
+            color:blue;
+        }
+        button{
+            border: 1px solid black;
+            border-radius: 2em;
+            padding: 1em 2em;
+        }
+    </style>
+
+</head>
+
+<body>
+<main>
+    <div class="container">
+        <div class="row">
+        <p>
+       <span id="what"> whatthefort.is</span> 
+       </p> 
+       <p>
+        <span class="blue3" style="color:blue;"> a closure</span>
+       </p>
+       <p>
+       <button id="on" onclick="on()"><i class="fas fa-moon"></i></button>
+        <button id="off" style="display: none;" onclick="off()"><i class="fas fa-sun"></i></button>
+        </p>
+    </div>
+
+        <div class="text">
+            
+            <p>
+                Closures are confusing because they are an “invisible” concept.
+            </p>
+
+            <p>
+                When you use an object, a variable, or a function, you do this intentionally. You think: “I’m gonna need a variable here,” and add it to your code.
+            </p>
+
+            <p>
+                Closures are different. By the time most people approach closures, they have already used them unknowingly many times — and it is likely that this is true for yourself, too. So learning closures is less about understanding a new concept and more about recognizing something you have already been doing for a while.
+
+            </p>
+
+            <h1>GPT-3</h1>
+ 
+            <p class="blue">
+                GPT-3 is a neural-network-powered language model. A language model is a model that predicts the likelihood of a sentence existing in the world.
+            </p>
+
+            <p>
+                The GPT-3 model architecture itself is a transformer-based neural network. This architecture became popular around 2–3 years ago, and is the basis for the popular NLP model BERT and GPT-3’s predecessor, GPT-2. From an architecture perspective, GPT-3 is not actually very novel!
+            </p>
+
+            <p class="blue1">
+                IT’S REALLY BIG. I mean really big. With 175 billion parameters, it’s the largest language model ever created
+            </p>
+        
+
+            <p>
+                You can ask GPT-3 to be a translator, a programmer, a poet, or a famous author, and it can do it with its user (you) providing fewer than 10 training examples. Damn.
+            </p>
+        
+
+            <p class="blue2">
+                Today, GPT-3 is in private beta, but boy can I not wait to get my hands on it.
+            </p>
+        </div>
+
+
+
+
+    </div>
+</main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
