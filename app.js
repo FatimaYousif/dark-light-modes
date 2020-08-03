@@ -23,6 +23,8 @@ document.querySelector(".blue3").style.color="yellow";
 document.querySelector(".row ").style.display="flex";
 document.querySelector(".row ").style.justifyContent="space-between";
 document.querySelector(".row ").style.textAlign="left";
+ document.querySelector(".row").style.backgroundColor="black";
+
 
 }
 
@@ -34,6 +36,8 @@ document.querySelector("#off").style.display="none";
 document.querySelector(".row").style.display="flex";
 document.querySelector(".row").style.justifyContent="space-between";
 document.querySelector(".row").style.textAlign="left";
+document.querySelector(".row").style.backgroundColor="white";
+
 
 
 document.body.style.backgroundColor="white";
